@@ -1,0 +1,45 @@
+{
+    "name": "broccoli-ng-annotate",
+    "version": "0.1.0",
+    "description": "Add, remove and rebuild AngularJS dependency injection annotations.",
+    "license": "MIT",
+    "homepage": "https://github.com/pgilad/broccoli-ng-annotate",
+    "bugs": "https://github.com/pgilad/broccoli-ng-annotate/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pgilad/broccoli-ng-annotate"
+    },
+    "author": {
+        "name": "Gilad Peleg",
+        "email": "pgilad007@gmail.com"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "broccoli build temp && mocha"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "broccoli-plugin",
+        "ng-annotate",
+        "js",
+        "angularjs",
+        "angular",
+        "annotate",
+        "minify",
+        "minification",
+        "uglify"
+    ],
+    "dependencies": {
+        "broccoli-filter": "^0.1.6",
+        "ng-annotate": "^0.9.2"
+    },
+    "devDependencies": {
+        "broccoli": "^0.12.0",
+        "mocha": "*",
+        "rimraf": "^2.2.6"
+    }
+}
