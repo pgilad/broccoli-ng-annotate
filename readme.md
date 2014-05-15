@@ -1,5 +1,4 @@
 # [broccoli](https://github.com/joliss/broccoli)-ng-annotate
-[![Build Status](https://travis-ci.org/pgilad/broccoli-ng-annotate.svg?branch=master)](https://travis-ci.org/pgilad/broccoli-ng-annotate)
 
 [![NPM version](http://img.shields.io/npm/v/broccoli-ng-annotate.svg)](https://www.npmjs.org/package/broccoli-ng-annotate)
 [![NPM Downloads](http://img.shields.io/npm/dm/broccoli-ng-annotate.svg)](https://www.npmjs.org/package/broccoli-ng-annotate)
