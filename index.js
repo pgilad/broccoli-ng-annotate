@@ -18,7 +18,11 @@ NgAnnotateFilter.prototype.extensions = ['js'];
 NgAnnotateFilter.prototype.targetExtension = 'js';
 
 NgAnnotateFilter.prototype.processString = function(str) {
-	return ngAnnotate(str, this.options).src;
+	var result = ngAnnotate(str, this.options);
+	if (result.errors) {
+		throw new Error(result.errors.join('\n'));
+	}
+	return result.src;
 };
 
 module.exports = NgAnnotateFilter;
