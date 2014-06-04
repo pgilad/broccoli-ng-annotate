@@ -2,7 +2,7 @@
 
 [![NPM version](http://img.shields.io/npm/v/broccoli-ng-annotate.svg?style=flat)](https://www.npmjs.org/package/broccoli-ng-annotate)
 [![NPM Downloads](http://img.shields.io/npm/dm/broccoli-ng-annotate.svg?style=flat)](https://www.npmjs.org/package/broccoli-ng-annotate)
-[![Build Status](http://img.shields.io/travis/pgilad/broccoli-ng-annotate/master.svg?style=flat)](https://travis-ci.org/pgilad/broccoli-ng-annotate)
+[![Build Status](http://img.shields.io/travis/pgilad/broccoli-ng-annotate/master.svg)](https://travis-ci.org/pgilad/broccoli-ng-annotate)
 
 > Add, remove and rebuild AngularJS dependency injection annotations.
 
