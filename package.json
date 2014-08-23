@@ -1,6 +1,6 @@
 {
   "name": "broccoli-ng-annotate",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Add, remove and rebuild AngularJS dependency injection annotations.",
   "license": "MIT",
   "homepage": "https://github.com/pgilad/broccoli-ng-annotate",
