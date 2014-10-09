@@ -34,11 +34,11 @@
     "uglify"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.6",
-    "ng-annotate": "^0.10.1"
+    "broccoli-filter": "^0.1.7",
+    "ng-annotate": "^0.10.2"
   },
   "devDependencies": {
-    "broccoli": "^0.13.0",
+    "broccoli": "^0.13.1",
     "broccoli-cli": "0.0.1",
     "mocha": "*",
     "rimraf": "^2.2.6"
