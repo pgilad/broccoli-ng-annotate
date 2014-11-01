@@ -30,7 +30,7 @@
     "uglify"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.9",
+    "broccoli-filter": "^0.1.10",
     "ng-annotate": "^0.10.2"
   },
   "devDependencies": {
