@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "broccoli-filter": "^0.1.10",
-    "ng-annotate": "^0.13.0"
+    "ng-annotate": "^0.14.1"
   },
   "devDependencies": {
     "broccoli": "^0.13.3",
