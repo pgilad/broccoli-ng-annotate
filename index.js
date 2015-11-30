@@ -3,12 +3,13 @@ var Filter = require('broccoli-filter');
 var ngAnnotate = require('ng-annotate');
 
 function NgAnnotateFilter(inputTree, options) {
+  options = options || {};
   if (!(this instanceof NgAnnotateFilter)) {
     return new NgAnnotateFilter(inputTree, options);
   }
 
-  this.inputTree = inputTree;
-  this.options = options || {};
+  Filter.call(this, inputTree);
+  this.options = options;
 }
 
 NgAnnotateFilter.prototype = Object.create(Filter.prototype);
