@@ -33,4 +33,4 @@ In addition you can pass in `options.data` to use as the ng-annotate options.
 
 ## License
 
-MIT @[Gilad Peleg](http://giladpeleg.com)
+MIT © [Gilad Peleg](https://www.giladpeleg.com)
